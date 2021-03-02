@@ -2,3 +2,4 @@ this is the first text in git.
 this is the second line in this text.
 this is the third line in this text.
 this is the fourth line in this text.
+this is the fifth line in this text.
