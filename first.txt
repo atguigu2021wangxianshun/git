@@ -1,2 +1,3 @@
 this is the first text in git.
-this the second line in this text.
+this is the second line in this text.
+this is the third line in this text.
