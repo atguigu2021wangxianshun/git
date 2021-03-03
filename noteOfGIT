@@ -8,3 +8,5 @@ git log --pretty=oneline[--oneline]:每个记录以一行的形式输出
 git reflog --pretty=oneline[--oneline]:带索引的每条记录以一行的形式输出
 git reset --hard 索引名:根据索引跳转到指定的版本
 git reset --hard HEAD:可以将所有删除的文件但未提交到本地库中的文件恢复
+git diff [文件名]:将工作区中的文件和暂存区进行比较
+git diff [本地库中历史版本] [文件名]:将工作区中文件和本地库历史记录进行比较，不带文件名比较多个文件 
