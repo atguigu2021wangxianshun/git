@@ -1,0 +1,9 @@
+git status:查看git状态
+git add filename:添加到暂存区
+git commit filename:添加到本地库
+git log:查看历史记录
+git reflog:带索引查看历史记录
+git log --pretty=oneline[--oneline]:每个记录以一行的形式输出
+git reflog --pretty=oneline[--oneline]:带索引的每条记录以一行的形式输出
+git reset --hard 索引名:根据索引跳转到指定的版本
+git reset --hard HEAD:可以将所有删除的文件但未提交到本地库中的文件恢复
