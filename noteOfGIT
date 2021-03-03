@@ -1,6 +1,7 @@
 git status:查看git状态
 git add filename:添加到暂存区
 git commit filename:添加到本地库
+git commit -m "备注" 文件名:提交某个文件并给出修改备注
 git log:查看历史记录
 git reflog:带索引查看历史记录
 git log --pretty=oneline[--oneline]:每个记录以一行的形式输出
