@@ -42,3 +42,5 @@ username=atguigu2021wangxianshun
 email=2653439374@qq.com
 password=913dhlg3512wxs
 
+git remote -v: 可以用来查看远程库的连接网址
+git remote add 名字 网址: 可以用来添加远程库的网址到本地
