@@ -61,8 +61,8 @@ git merge [自定义网址名字/远程分支名]: 可以将下载下来的远�
 SSH免密登录：
 1、进入当前用户的家目录
 2、如果有.shh目录，则删除，没有则执行ssh-keygen -t rsa -C github账号
-3、进入.shh目录查看文件列表，查看id_rsa.pub文件内容，并赋值id_rsa.pub的文件内容
+3、进入.shh目录查看文件列表，查看id_rsa.pub文件内容，并复制id_rsa.pub的文件内容
 4、登录github，点击用户头像-》Setting-》SSH and GPG -》keys-》newSSHkey
-5、输入赋值的密匙信息
+5、输入复制的密匙信息
 6、回到gitbash创建远程地址别名
 7、后面就可以使用新创建的远程地址别名进行远程库的推送即可，中途出现的选择为yes即可
